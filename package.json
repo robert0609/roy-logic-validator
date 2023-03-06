@@ -26,6 +26,7 @@
     "release": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0"
   },
   "dependencies": {
+    "roy-type-assert": "^0.1.8"
   },
   "devDependencies": {
     "@commitlint/cli": "^12.1.4",

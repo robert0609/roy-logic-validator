@@ -1,5 +1,4 @@
-export function main() {
-  return 'hello world';
-}
-
-console.log(main());
+export * from './rule';
+import type { IRules } from './rule';
+export * from './condition';
+export type { IRules };
